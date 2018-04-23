@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lekwaito.oroni.lekwaito.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Lekwaito User Registration"
+        android:textAppearance="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editName"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editPassword"
+        android:text="Register" />
+
+</RelativeLayout>
