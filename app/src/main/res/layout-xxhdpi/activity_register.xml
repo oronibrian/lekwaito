@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="54dp"
         android:gravity="center"
         android:text="Lekwaito User Registration"
         android:textAppearance="@color/colorPrimaryDark"
@@ -69,5 +69,22 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editPassword"
         android:text="Register" />
+
+    <TextView
+        android:id="@+id/tvconnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp" />
 
 </RelativeLayout>
